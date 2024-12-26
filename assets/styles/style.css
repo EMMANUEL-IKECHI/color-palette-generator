@@ -56,3 +56,13 @@ button {
     background-color: #8a6cff;
     box-shadow: 0 10px 20px rgba(52, 87, 220, 0.08);
 }
+
+@media  screen and (max-width:480px) {
+    .container {
+        margin: 0;
+    }
+    .rect-box {
+        width: 100px;
+        height: 120px;
+    }
+}
